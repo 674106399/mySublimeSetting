@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"ConvertToUTF8",
+		"CTags",
+		"Emmet",
+		"JsFormat",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Predawn",
+		"Predawn Monokai",
+		"Solarized Color Scheme",
+		"SublimeREPL",
+		"Theme - Soda SolarizedDark",
+		"Theme - Spacegray",
+		"Themr"
+	]
+}
