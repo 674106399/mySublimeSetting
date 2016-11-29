@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+if(symbol == LBRACE){
+	getOneSym();
+
+	if(symbol != RBRACE) error(16);//应是'}'
+	else getOneSym();
+}else error(42);//应是'{'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>iflbrace</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+// 运行到这里说明一个参数定义已经结束，可以登录符号表了
+						// 登录符号表
+						enterIntoSymTab(t_name,t_obj,t_typ,t_value,t_addr,t_paramNum);
+
+						#ifdef sDEBUG
+						cout << " name = " << t_name;
+						cout << " obj = " << objName[t_obj];
+						cout << " typ = " << typName[t_typ];
+						cout << " value = " << t_value;
+						cout << " addr = " << t_addr;
+						cout << " paramNum = " << t_paramNum << endl;
+						#endif
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>entercout</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

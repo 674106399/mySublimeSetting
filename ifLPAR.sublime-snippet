@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+if(symbol == LPARENT){
+	getOneSym();
+
+	if(symbol != RPARENT) error(14);//应是')'
+	else getOneSym();
+}else error(12);//应是'('
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>iflpar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
